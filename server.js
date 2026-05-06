@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // ─── Middleware ───────────────────────────────────────────────────────────────
-app.use(cors()); // Accept all frontend originss
+app.use(cors()); // Accept all frontend origins
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
